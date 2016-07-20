@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %>&trade;</h1>
+    <p>Welcome to <%= title %></p>
+    <!-- API call in alexa <a href="http://tobuildsomething.com/2015/08/14/Amazon-Echo-Alexa-Tutorial-The-Definitive-Guide-to-Coding-an-Alexa-Skill">Config</a> -->
+    <form action="/login" method="post">
+      User Name :<input type="text" name="userName" /> <br />
+      Password :<input type="password" name="password" /> <br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
