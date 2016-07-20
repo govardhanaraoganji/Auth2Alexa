@@ -36,7 +36,7 @@ router.post('/login', function(req, res, next) {
        }
        };
       try{
-        RestClient.post("http://stage.b1automation.com/user/login", args, function(data, resp){
+        RestClient.post("http://google.com", args, function(data, resp){
           var speechOutput = "Unable to parse the response, please try again !";
           var repromptText = "you can ask status of your devices";
           if(data){
