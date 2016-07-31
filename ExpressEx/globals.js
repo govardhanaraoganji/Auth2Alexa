@@ -15,13 +15,7 @@ Globals.prototype.RabbitMQConfig = {
     auth: {
         user: 'admin',
         pass: 'bz@123'
-    },
-    ExchangeName: "TestMessageExchange",
-    QueueName: "TestMessageQueue",
-    PushNotificationExchangeName: "PushNotificationTestMessageExchange",
-    PushNotificationQueueName: "PushNotificationQueue",
-    EventExchangeName: "TestEventMessageExchange",
-    EventQueueName: "TestEventQueue"
+    }
 };
 
 // Template configuration
@@ -63,6 +57,6 @@ Globals.prototype.LoggerConfig = {
         }
     ]
 };
-Globals.prototype.adminMail = "govardhanforvm@gmail.com";
+Globals.prototype.adminMail = "xxxx@gmail.com";
 
 module.exports = new Globals();
